@@ -1,0 +1,243 @@
+/* iPad in landscape */
+
+@media only screen and (min-device-width: 708px) and (max-device-width: 1180px) and (orientation: landscape) {
+    body .arrow-title h3,
+    body .boxLocations .ItemLocation h3 {
+        font-size: 18px !important;
+    }
+    body p {
+        font-size: 16px;
+    }
+    .boxLocations .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    body h3 {
+        font-size: 34px !important;
+        font-weight: 800 !important;
+    }
+    .boxHover__effect>div.effect__col2 span {
+        font-size: 16px !important;
+    }
+    .boxHover__effect>div.effect__col2 h3 {
+        font-size: 22px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 10px !important;
+    }
+    footer h5 {
+        font-size: 16px !important;
+        margin-bottom: 0px !important;
+    }
+    footer ul li a {
+        margin-top: 5px;
+    }
+    body footer .col-md-3.line:before {
+        right: 30px;
+    }
+    body footer {
+        padding: 120px 0px 30px 0px !important
+    }
+    body footer p {
+        font-size: 12px;
+    }
+    body .parallaxSection>div,
+    body .sectionRounded {
+        width: calc(100% - 30px);
+        border-radius: 2rem;
+        margin: 135px auto auto;
+        height: calc(100vh - 145px) !important;
+    }
+    .description h5,
+    .description h4,
+    .description li,
+    .description p,
+    .description span,
+    .description div,
+    p.p {
+        margin: 0 0 25px !important;
+        font-size: 16px !important;
+        line-height: 1.8 !important;
+        font-family: Inter !important;
+    }
+    .effect__img {
+        margin-bottom: 20px;
+    }
+    .effect__img p {
+        padding-top: 40px !important;
+    }
+    .effect__img p,
+    .effect__img h3 {
+        padding: 0 20px
+    }
+    .effect__col2 {
+        min-height: 82px;
+    }
+    .effect__col3 {
+        padding-bottom: 40px !important;
+    }
+    html body .mb-xs-60 {
+        margin-bottom: 60px !important;
+    }
+    .small,
+    body small {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    html body .mb-xs-40 {
+        margin-bottom: 40px !important;
+    }
+    body .f18,
+    p.f18,
+    body .f25,
+    body p.f25 {
+        font-size: 16px !important;
+    }
+    /*     
+        .box__blue__locations>div.col-md-4 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-bottom: 30px !important;
+        }
+     */
+    .kidBox .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    body .lead {
+        font-size: 18px;
+        font-weight: 300;
+    }
+}
+
+/* iPad in portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    body .arrow-title h3,
+    body .boxLocations .ItemLocation h3 {
+        font-size: 18px !important;
+    }
+    body p {
+        font-size: 16px;
+    }
+    .boxLocations .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    body h3 {
+        font-size: 34px !important;
+        font-weight: 800 !important;
+    }
+    .boxHover__effect>div.effect__col2 span {
+        font-size: 16px !important;
+    }
+    .boxHover__effect>div.effect__col2 h3 {
+        font-size: 22px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 10px !important;
+    }
+    footer h5 {
+        font-size: 16px !important;
+        margin-bottom: 0px !important;
+    }
+    footer ul li a {
+        margin-top: 5px;
+    }
+    body footer .col-md-3.line:before {
+        right: 30px;
+    }
+    body footer {
+        padding: 120px 0px 30px 0px !important
+    }
+    body footer p {
+        font-size: 12px;
+    }
+    body .parallaxSection>div,
+    body .sectionRounded {
+        width: calc(100% - 30px);
+        border-radius: 2rem;
+        margin: 135px auto auto;
+        height: calc(100vh - 145px) !important;
+    }
+    .description h5,
+    .description h4,
+    .description li,
+    .description p,
+    .description span,
+    .description div,
+    p.p {
+        margin: 0 0 25px !important;
+        font-size: 16px !important;
+        line-height: 1.8 !important;
+        font-family: Inter !important;
+    }
+    .col-md-12.groups_mod {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .boxHover__effect>div {
+        min-width: 100%;
+    }
+    .boxHover__effect {
+        flex-direction: column;
+        padding: 0 !important;
+        width: 100%;
+        height: 100%;
+    }
+    .effect__img {
+        margin-bottom: 20px;
+    }
+    .effect__img p {
+        padding-top: 40px !important;
+    }
+    .effect__img p,
+    .effect__img h3 {
+        padding: 0 20px
+    }
+    .effect__col2 {
+        min-height: 82px;
+    }
+    .effect__col3 {
+        padding-bottom: 40px !important;
+    }
+    html body .mb-xs-60 {
+        margin-bottom: 60px !important;
+    }
+    .small,
+    body small {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    html body .mb-xs-40 {
+        margin-bottom: 40px !important;
+    }
+    body .f18,
+    p.f18,
+    body .f25,
+    body p.f25 {
+        font-size: 16px !important;
+    }
+    .box__blue__locations>div.col-md-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px !important;
+    }
+    .kidBox .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    body .lead {
+        font-size: 18px;
+        font-weight: 300;
+    }
+}
+
+footer h5 i {
+    display: none !important;
+}
